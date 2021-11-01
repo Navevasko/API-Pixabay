@@ -23,7 +23,88 @@ header {
 #pesquisar {
     width: 100%;
     height: 80px;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
     background-color: khaki;
+}
+
+#logo {
+    width: 200px;
+    height: inherit;
+}
+
+#logo img {
+    width: inherit;
+    height: 70px;
+}
+
+#barra-pesquisa {
+    width: 500px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    border: 1px solid grey;
+    background-color: white;
+}
+
+#barra-pesquisa input {
+    width: inherit;
+    height: 35px;
+    border: unset;
+    outline: unset;
+    background-color: unset;
+    font-size: 1em;
+    padding-left: 10px;
+}
+
+#barra-pesquisa button {
+    width: 35px;
+    height: 35px;
+    border: none;
+    outline: none;
+    background-color: unset;
+}
+
+#barra-pesquisa img {
+    width: inherit;
+    height: inherit;
+}
+
+#perfil {
+    width: 600px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 5px 15px;
+    background-color: yellow;
+    margin-left: 325px;
+    font-size: 1.5em;
+}
+
+#perfil p:nth-child(3) {
+    border-left: 1px solid black;
+}
+#perfil button {
+    width: 150px;
+    height: 35px;
+    border-radius: 15px;
+    padding: 5px 5px;
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.7em;
+    outline: unset;
+    border: unset;
+    background-color: green;
+}
+
+#perfil img {
+    width: 25px;
+    height: 25px;
 }
 
 #filtro {
@@ -38,21 +119,25 @@ main {
 }
 
 .galeria-container {
+    width: 100%;
     display: flex;
+    align-items: center;
     gap: 15px;
     flex-wrap: wrap;
     padding: 20px 20px;
 }
 
 .galeria-item {
-    display: flex;
-    flex-direction: column;
-    height: fit-content;
-    background-color: cadetblue;
+    flex-basis: 346.687px
+;
+    flex-grow: 1.54083;
+    max-width: 523.883px
+;
 }
 
-.galeria-item img {
-    height: 200px;
+.img-item {
+    min-height: 235px;
+    max-height: 250px;
     object-fit: cover;
 }
 
