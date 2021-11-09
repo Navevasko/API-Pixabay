@@ -1,39 +1,42 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/style.css">
-        <script src="js/script.js" defer></script>
-        <title>Pixabay</title>
-    </head>
-    <body>
-        <header>
-            <div id="pesquisar">
-                <div id="logo"><img src="img/pixabay.png" alt=""></div>
-                <div id="barra-pesquisa">
-                        <button type="submit"><img src="img/search.png" alt=""></button>
-                        <input type="text" placeholder="Search Images" id='pesquisar'>
-                </div>
-                <div id="perfil">
-                    <div class="explore">
-                        Explorar
-                        <div class="arrow"></div>
-                    </div>
-                    <p>Efetuar Login</p>
-                    <p>Aderir</p>
-                    <button><img src="img/search.png"> Carregar</button>
-                </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="icon" type="image/png" href="img/pixabay-icone.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script src="js/script.js" defer></script>
+    <title>Pixabay</title>
+</head>
+<body>
+    <header>
+        <div class="center">
+            <img id="logo"src="img/Pixabay.png">
+            <div id="barra-pesquisa">
+                <img src="img/search.png">
+                <input id="pesquisa" type="text" placeholder="Buscar">
+                <select id="categorias">
+                    <option value="all">Imagens</option>
+                    <option value="photo">Fotos</option>
+                    <option value="vector"> Vetores </option>
+                    <option value="illustration">Ilustrações</option>
+                </select>
             </div>
-            <div id="filtro"></div>
-        </header>
-        <main>
-            <div class="galeria-container">
+        </div>
+    </header>
 
-
+    <main>
+        <div class="center">
+            <div class="status">
             </div>
-        </main>
-        <footer></footer>
-    </body>
+        </div>
+         <div id="container-galeria">
+             
+         </div>   
+    </main>
+
+</body>
 </html>
